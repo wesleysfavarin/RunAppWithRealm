@@ -8,12 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		0439F76B221991CC00C78BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F76A221991CC00C78BD8 /* AppDelegate.swift */; };
-		0439F76D221991CC00C78BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F76C221991CC00C78BD8 /* ViewController.swift */; };
 		0439F770221991CC00C78BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439F76E221991CC00C78BD8 /* Main.storyboard */; };
 		0439F772221991CF00C78BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0439F771221991CF00C78BD8 /* Assets.xcassets */; };
 		0439F775221991CF00C78BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0439F773221991CF00C78BD8 /* LaunchScreen.storyboard */; };
 		0439F780221991CF00C78BD8 /* RunAppWithRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F77F221991CF00C78BD8 /* RunAppWithRealmTests.swift */; };
 		0439F78B221991CF00C78BD8 /* RunAppWithRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F78A221991CF00C78BD8 /* RunAppWithRealmUITests.swift */; };
+		0439F79A2219A91B00C78BD8 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7992219A91B00C78BD8 /* Run.swift */; };
+		0439F79C2219A93F00C78BD8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F79B2219A93F00C78BD8 /* Location.swift */; };
+		0439F79F2219B25300C78BD8 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F79E2219B25300C78BD8 /* RealmConfig.swift */; };
+		0439F7A12219B27600C78BD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7A02219B27600C78BD8 /* Constants.swift */; };
+		0439F7A42219B2C600C78BD8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7A32219B2C600C78BD8 /* Extensions.swift */; };
+		0439F7B82219B39800C78BD8 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7A62219B39700C78BD8 /* Montserrat-MediumItalic.ttf */; };
+		0439F7B92219B39800C78BD8 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7A72219B39700C78BD8 /* Montserrat-Light.ttf */; };
+		0439F7BA2219B39800C78BD8 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7A82219B39700C78BD8 /* Montserrat-ExtraBoldItalic.ttf */; };
+		0439F7BB2219B39800C78BD8 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7A92219B39700C78BD8 /* Montserrat-Thin.ttf */; };
+		0439F7BC2219B39800C78BD8 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AA2219B39700C78BD8 /* Montserrat-ExtraLightItalic.ttf */; };
+		0439F7BD2219B39800C78BD8 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AB2219B39700C78BD8 /* Montserrat-ExtraLight.ttf */; };
+		0439F7BE2219B39800C78BD8 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AC2219B39700C78BD8 /* Montserrat-SemiBold.ttf */; };
+		0439F7BF2219B39800C78BD8 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AD2219B39700C78BD8 /* Montserrat-ThinItalic.ttf */; };
+		0439F7C02219B39800C78BD8 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AE2219B39700C78BD8 /* Montserrat-Italic.ttf */; };
+		0439F7C12219B39800C78BD8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7AF2219B39700C78BD8 /* Montserrat-Regular.ttf */; };
+		0439F7C22219B39800C78BD8 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B02219B39700C78BD8 /* Montserrat-Black.ttf */; };
+		0439F7C32219B39800C78BD8 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B12219B39700C78BD8 /* Montserrat-LightItalic.ttf */; };
+		0439F7C42219B39800C78BD8 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B22219B39700C78BD8 /* Montserrat-BoldItalic.ttf */; };
+		0439F7C52219B39800C78BD8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B32219B39700C78BD8 /* Montserrat-Medium.ttf */; };
+		0439F7C62219B39800C78BD8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B42219B39700C78BD8 /* Montserrat-Bold.ttf */; };
+		0439F7C72219B39800C78BD8 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B52219B39700C78BD8 /* Montserrat-SemiBoldItalic.ttf */; };
+		0439F7C82219B39800C78BD8 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B62219B39800C78BD8 /* Montserrat-ExtraBold.ttf */; };
+		0439F7C92219B39800C78BD8 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0439F7B72219B39800C78BD8 /* Montserrat-BlackItalic.ttf */; };
+		0439F7CD2219B5FE00C78BD8 /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7CC2219B5FE00C78BD8 /* RunLogCell.swift */; };
+		0439F7CF2219B64400C78BD8 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7CE2219B64400C78BD8 /* LocationVC.swift */; };
+		0439F7D12219B66D00C78BD8 /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7D02219B66D00C78BD8 /* BeginRunVC.swift */; };
+		0439F7D32219B69200C78BD8 /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7D22219B69200C78BD8 /* RunLogVC.swift */; };
+		0439F7D52219B6B900C78BD8 /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439F7D42219B6B900C78BD8 /* CurrentRunVC.swift */; };
+		316CCE7875461A2FA3139E22 /* Pods_RunAppWithRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721566D3DDE76CE00C60781B /* Pods_RunAppWithRealmTests.framework */; };
+		A37CEF31378F360A3BD68AFC /* Pods_RunAppWithRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFB1A5193B4E5B75A3EA78C /* Pods_RunAppWithRealmUITests.framework */; };
+		DA379CC90DAA90622FF61F04 /* Pods_RunAppWithRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382EBAAF0AD0FDAB1241075F /* Pods_RunAppWithRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +66,6 @@
 /* Begin PBXFileReference section */
 		0439F767221991CC00C78BD8 /* RunAppWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunAppWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439F76A221991CC00C78BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0439F76C221991CC00C78BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0439F76F221991CC00C78BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0439F771221991CF00C78BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0439F774221991CF00C78BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,43 @@
 		0439F786221991CF00C78BD8 /* RunAppWithRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunAppWithRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0439F78A221991CF00C78BD8 /* RunAppWithRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunAppWithRealmUITests.swift; sourceTree = "<group>"; };
 		0439F78C221991CF00C78BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0439F7992219A91B00C78BD8 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		0439F79B2219A93F00C78BD8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0439F79E2219B25300C78BD8 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
+		0439F7A02219B27600C78BD8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0439F7A32219B2C600C78BD8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0439F7A62219B39700C78BD8 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		0439F7A72219B39700C78BD8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		0439F7A82219B39700C78BD8 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		0439F7A92219B39700C78BD8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		0439F7AA2219B39700C78BD8 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		0439F7AB2219B39700C78BD8 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0439F7AC2219B39700C78BD8 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		0439F7AD2219B39700C78BD8 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0439F7AE2219B39700C78BD8 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		0439F7AF2219B39700C78BD8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		0439F7B02219B39700C78BD8 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		0439F7B12219B39700C78BD8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		0439F7B22219B39700C78BD8 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0439F7B32219B39700C78BD8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		0439F7B42219B39700C78BD8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		0439F7B52219B39700C78BD8 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0439F7B62219B39800C78BD8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0439F7B72219B39800C78BD8 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0439F7CC2219B5FE00C78BD8 /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
+		0439F7CE2219B64400C78BD8 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		0439F7D02219B66D00C78BD8 /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
+		0439F7D22219B69200C78BD8 /* RunLogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogVC.swift; sourceTree = "<group>"; };
+		0439F7D42219B6B900C78BD8 /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
+		08D35663D3E1BEFCE3FD9756 /* Pods-RunAppWithRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealmTests/Pods-RunAppWithRealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		382EBAAF0AD0FDAB1241075F /* Pods_RunAppWithRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAppWithRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFB1A5193B4E5B75A3EA78C /* Pods_RunAppWithRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAppWithRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721566D3DDE76CE00C60781B /* Pods_RunAppWithRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunAppWithRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E93F65C7980D0AA5D40230 /* Pods-RunAppWithRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealm/Pods-RunAppWithRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		98A10B4ED460E74414251867 /* Pods-RunAppWithRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealmUITests/Pods-RunAppWithRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA7C67C3CFF8B0206C6BC88E /* Pods-RunAppWithRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealm/Pods-RunAppWithRealm.release.xcconfig"; sourceTree = "<group>"; };
+		E361626318B45385AD177784 /* Pods-RunAppWithRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealmUITests/Pods-RunAppWithRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F298CC5890DD2DF69D4B8222 /* Pods-RunAppWithRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunAppWithRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunAppWithRealmTests/Pods-RunAppWithRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA379CC90DAA90622FF61F04 /* Pods_RunAppWithRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316CCE7875461A2FA3139E22 /* Pods_RunAppWithRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37CEF31378F360A3BD68AFC /* Pods_RunAppWithRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +150,8 @@
 				0439F77E221991CF00C78BD8 /* RunAppWithRealmTests */,
 				0439F789221991CF00C78BD8 /* RunAppWithRealmUITests */,
 				0439F768221991CC00C78BD8 /* Products */,
+				61F587DFFA8E0D2861F8420F /* Pods */,
+				59EA5C2ADDE8218F7EA07CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +168,13 @@
 		0439F769221991CC00C78BD8 /* RunAppWithRealm */ = {
 			isa = PBXGroup;
 			children = (
+				0439F7CB2219B5DB00C78BD8 /* View */,
+				0439F7CA2219B5CC00C78BD8 /* Controller */,
+				0439F7A52219B34F00C78BD8 /* Resources */,
+				0439F7A22219B2A500C78BD8 /* Extensions */,
+				0439F79D2219B23700C78BD8 /* Utilities */,
+				0439F7982219A8E600C78BD8 /* Model */,
 				0439F76A221991CC00C78BD8 /* AppDelegate.swift */,
-				0439F76C221991CC00C78BD8 /* ViewController.swift */,
 				0439F76E221991CC00C78BD8 /* Main.storyboard */,
 				0439F771221991CF00C78BD8 /* Assets.xcassets */,
 				0439F773221991CF00C78BD8 /* LaunchScreen.storyboard */,
@@ -125,6 +201,99 @@
 			path = RunAppWithRealmUITests;
 			sourceTree = "<group>";
 		};
+		0439F7982219A8E600C78BD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0439F7992219A91B00C78BD8 /* Run.swift */,
+				0439F79B2219A93F00C78BD8 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0439F79D2219B23700C78BD8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0439F79E2219B25300C78BD8 /* RealmConfig.swift */,
+				0439F7A02219B27600C78BD8 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0439F7A22219B2A500C78BD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0439F7A32219B2C600C78BD8 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0439F7A52219B34F00C78BD8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0439F7B02219B39700C78BD8 /* Montserrat-Black.ttf */,
+				0439F7B72219B39800C78BD8 /* Montserrat-BlackItalic.ttf */,
+				0439F7B42219B39700C78BD8 /* Montserrat-Bold.ttf */,
+				0439F7B22219B39700C78BD8 /* Montserrat-BoldItalic.ttf */,
+				0439F7B62219B39800C78BD8 /* Montserrat-ExtraBold.ttf */,
+				0439F7A82219B39700C78BD8 /* Montserrat-ExtraBoldItalic.ttf */,
+				0439F7AB2219B39700C78BD8 /* Montserrat-ExtraLight.ttf */,
+				0439F7AA2219B39700C78BD8 /* Montserrat-ExtraLightItalic.ttf */,
+				0439F7AE2219B39700C78BD8 /* Montserrat-Italic.ttf */,
+				0439F7A72219B39700C78BD8 /* Montserrat-Light.ttf */,
+				0439F7B12219B39700C78BD8 /* Montserrat-LightItalic.ttf */,
+				0439F7B32219B39700C78BD8 /* Montserrat-Medium.ttf */,
+				0439F7A62219B39700C78BD8 /* Montserrat-MediumItalic.ttf */,
+				0439F7AF2219B39700C78BD8 /* Montserrat-Regular.ttf */,
+				0439F7AC2219B39700C78BD8 /* Montserrat-SemiBold.ttf */,
+				0439F7B52219B39700C78BD8 /* Montserrat-SemiBoldItalic.ttf */,
+				0439F7A92219B39700C78BD8 /* Montserrat-Thin.ttf */,
+				0439F7AD2219B39700C78BD8 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0439F7CA2219B5CC00C78BD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0439F7CE2219B64400C78BD8 /* LocationVC.swift */,
+				0439F7D02219B66D00C78BD8 /* BeginRunVC.swift */,
+				0439F7D22219B69200C78BD8 /* RunLogVC.swift */,
+				0439F7D42219B6B900C78BD8 /* CurrentRunVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0439F7CB2219B5DB00C78BD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0439F7CC2219B5FE00C78BD8 /* RunLogCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59EA5C2ADDE8218F7EA07CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				382EBAAF0AD0FDAB1241075F /* Pods_RunAppWithRealm.framework */,
+				721566D3DDE76CE00C60781B /* Pods_RunAppWithRealmTests.framework */,
+				5EFB1A5193B4E5B75A3EA78C /* Pods_RunAppWithRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61F587DFFA8E0D2861F8420F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77E93F65C7980D0AA5D40230 /* Pods-RunAppWithRealm.debug.xcconfig */,
+				CA7C67C3CFF8B0206C6BC88E /* Pods-RunAppWithRealm.release.xcconfig */,
+				F298CC5890DD2DF69D4B8222 /* Pods-RunAppWithRealmTests.debug.xcconfig */,
+				08D35663D3E1BEFCE3FD9756 /* Pods-RunAppWithRealmTests.release.xcconfig */,
+				98A10B4ED460E74414251867 /* Pods-RunAppWithRealmUITests.debug.xcconfig */,
+				E361626318B45385AD177784 /* Pods-RunAppWithRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0439F78F221991CF00C78BD8 /* Build configuration list for PBXNativeTarget "RunAppWithRealm" */;
 			buildPhases = (
+				4757C46D50E4B35FAFE82355 /* [CP] Check Pods Manifest.lock */,
 				0439F763221991CC00C78BD8 /* Sources */,
 				0439F764221991CC00C78BD8 /* Frameworks */,
 				0439F765221991CC00C78BD8 /* Resources */,
+				49A70D76C79787904103976E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0439F792221991CF00C78BD8 /* Build configuration list for PBXNativeTarget "RunAppWithRealmTests" */;
 			buildPhases = (
+				6B5670081A8B5C724EAE6B86 /* [CP] Check Pods Manifest.lock */,
 				0439F777221991CF00C78BD8 /* Sources */,
 				0439F778221991CF00C78BD8 /* Frameworks */,
 				0439F779221991CF00C78BD8 /* Resources */,
@@ -167,6 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0439F795221991CF00C78BD8 /* Build configuration list for PBXNativeTarget "RunAppWithRealmUITests" */;
 			buildPhases = (
+				F6C5CCFFD8AEEFEB38B3DC19 /* [CP] Check Pods Manifest.lock */,
 				0439F782221991CF00C78BD8 /* Sources */,
 				0439F783221991CF00C78BD8 /* Frameworks */,
 				0439F784221991CF00C78BD8 /* Resources */,
@@ -229,9 +402,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0439F7C72219B39800C78BD8 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				0439F7B92219B39800C78BD8 /* Montserrat-Light.ttf in Resources */,
+				0439F7C22219B39800C78BD8 /* Montserrat-Black.ttf in Resources */,
+				0439F7BC2219B39800C78BD8 /* Montserrat-ExtraLightItalic.ttf in Resources */,
 				0439F775221991CF00C78BD8 /* LaunchScreen.storyboard in Resources */,
+				0439F7C82219B39800C78BD8 /* Montserrat-ExtraBold.ttf in Resources */,
+				0439F7C52219B39800C78BD8 /* Montserrat-Medium.ttf in Resources */,
+				0439F7C02219B39800C78BD8 /* Montserrat-Italic.ttf in Resources */,
 				0439F772221991CF00C78BD8 /* Assets.xcassets in Resources */,
+				0439F7BE2219B39800C78BD8 /* Montserrat-SemiBold.ttf in Resources */,
+				0439F7C12219B39800C78BD8 /* Montserrat-Regular.ttf in Resources */,
+				0439F7C42219B39800C78BD8 /* Montserrat-BoldItalic.ttf in Resources */,
+				0439F7C32219B39800C78BD8 /* Montserrat-LightItalic.ttf in Resources */,
+				0439F7BF2219B39800C78BD8 /* Montserrat-ThinItalic.ttf in Resources */,
+				0439F7BD2219B39800C78BD8 /* Montserrat-ExtraLight.ttf in Resources */,
+				0439F7C92219B39800C78BD8 /* Montserrat-BlackItalic.ttf in Resources */,
+				0439F7BA2219B39800C78BD8 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				0439F7C62219B39800C78BD8 /* Montserrat-Bold.ttf in Resources */,
+				0439F7B82219B39800C78BD8 /* Montserrat-MediumItalic.ttf in Resources */,
 				0439F770221991CC00C78BD8 /* Main.storyboard in Resources */,
+				0439F7BB2219B39800C78BD8 /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +442,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4757C46D50E4B35FAFE82355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunAppWithRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A70D76C79787904103976E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RunAppWithRealm/Pods-RunAppWithRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunAppWithRealm/Pods-RunAppWithRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5670081A8B5C724EAE6B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunAppWithRealmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C5CCFFD8AEEFEB38B3DC19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunAppWithRealmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0439F763221991CC00C78BD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0439F76D221991CC00C78BD8 /* ViewController.swift in Sources */,
+				0439F7D32219B69200C78BD8 /* RunLogVC.swift in Sources */,
+				0439F79A2219A91B00C78BD8 /* Run.swift in Sources */,
+				0439F7D12219B66D00C78BD8 /* BeginRunVC.swift in Sources */,
+				0439F7CF2219B64400C78BD8 /* LocationVC.swift in Sources */,
+				0439F7CD2219B5FE00C78BD8 /* RunLogCell.swift in Sources */,
+				0439F79F2219B25300C78BD8 /* RealmConfig.swift in Sources */,
+				0439F79C2219A93F00C78BD8 /* Location.swift in Sources */,
 				0439F76B221991CC00C78BD8 /* AppDelegate.swift in Sources */,
+				0439F7A12219B27600C78BD8 /* Constants.swift in Sources */,
+				0439F7D52219B6B900C78BD8 /* CurrentRunVC.swift in Sources */,
+				0439F7A42219B2C600C78BD8 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +723,7 @@
 		};
 		0439F790221991CF00C78BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E93F65C7980D0AA5D40230 /* Pods-RunAppWithRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +742,7 @@
 		};
 		0439F791221991CF00C78BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA7C67C3CFF8B0206C6BC88E /* Pods-RunAppWithRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +761,7 @@
 		};
 		0439F793221991CF00C78BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F298CC5890DD2DF69D4B8222 /* Pods-RunAppWithRealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +783,7 @@
 		};
 		0439F794221991CF00C78BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D35663D3E1BEFCE3FD9756 /* Pods-RunAppWithRealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +805,7 @@
 		};
 		0439F796221991CF00C78BD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A10B4ED460E74414251867 /* Pods-RunAppWithRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +826,7 @@
 		};
 		0439F797221991CF00C78BD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E361626318B45385AD177784 /* Pods-RunAppWithRealmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
